@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Hero Slider | Logan Baugh</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/projects.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="nav">
+      <div class="nav-container">
+        <a href="../index.html" class="nav-logo">Logan Baugh</a>
+        <ul class="nav-links">
+          <li><a href="../index.html#about">About</a></li>
+          <li><a href="../index.html#projects">Projects</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Project Header -->
+    <section class="project-header">
+      <div class="container">
+        <a href="../index.html#projects" class="back-link"
+          >← Back to Projects</a
+        >
+        <h1>Interactive Hero Slider</h1>
+        <p class="project-tagline">
+          Replacing a performance-heavy video background with responsive,
+          multi-CTA storytelling
+        </p>
+
+        <div class="project-meta">
+          <div class="meta-item">
+            <span class="meta-label">Role</span>
+            <span class="meta-value">Design & Development</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Tools</span>
+            <span class="meta-value">HTML, CSS, JavaScript</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Context</span>
+            <span class="meta-value">Healthcare Website Redesign</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Content -->
+    <section class="project-content">
+      <div class="container">
+        <!-- The Problem -->
+        <div class="content-section">
+          <h2>The Problem</h2>
+          <p>Our homepage hero section had issues:</p>
+          <ul>
+            <li>
+              Video background caused performance problems on slower connections
+            </li>
+            <li>
+              Had to disable video entirely on mobile, replacing it with a
+              static image
+            </li>
+            <li>Could only accommodate one call-to-action</li>
+            <li>
+              Stakeholders needed to promote multiple campaigns in that prime
+              real estate
+            </li>
+          </ul>
+
+          <div class="image-container">
+            <img
+              src="../images/hero-slider-before.jpg"
+              alt="Original video background hero section"
+            />
+            <p class="image-caption">
+              Before: Single CTA with video background (disabled on mobile)
+            </p>
+          </div>
+        </div>
+
+        <!-- The Solution -->
+        <div class="content-section">
+          <h2>What I Built</h2>
+          <p>An auto-advancing slider with story-style navigation that:</p>
+          <ul>
+            <li>
+              Works smoothly across all devices without performance issues
+            </li>
+            <li>
+              Lets stakeholders showcase multiple CTAs in a clean interface
+            </li>
+            <li>
+              Gives users control with clickable progress bars and navigation
+              arrows
+            </li>
+            <li>
+              Scales text independently from graphics for readability at any
+              screen size
+            </li>
+            <li>
+              Provides visual feedback so transitions feel intentional, not
+              jarring
+            </li>
+          </ul>
+
+          <div class="image-container">
+            <img
+              src="../images/hero-slider-after.jpg"
+              alt="New interactive hero slider"
+            />
+            <p class="image-caption">
+              After: Multi-CTA slider with story-style navigation
+            </p>
+          </div>
+        </div>
+
+        <!-- Technical Challenges -->
+        <div class="content-section">
+          <h2>Technical Challenges</h2>
+          <ul>
+            <li>
+              <strong>Responsive text:</strong> Separated text from graphics so
+              it could scale properly at any screen size—embedding text in
+              images would make it illegible on small screens or oversized on
+              large ones
+            </li>
+            <li>
+              <strong>Image scaling:</strong> Used CSS aspect-ratio to let
+              graphics resize fluidly without needing multiple image sizes or
+              restrictive safe zones
+            </li>
+            <li>
+              <strong>Accessible navigation:</strong> Included arrow buttons
+              alongside the progress bar interface for users who might not be
+              familiar with story-style navigation (our audience includes
+              seniors)
+            </li>
+          </ul>
+        </div>
+
+        <!-- The Context -->
+        <div class="content-section">
+          <h2>How This Came Together</h2>
+          <ul>
+            <li>
+              Worked as solo dev on a small marketing team managing three
+              healthcare sites
+            </li>
+            <li>
+              Stakeholders wanted multiple CTAs, I knew the video needed to
+              go—goals aligned perfectly
+            </li>
+            <li>
+              Moved straight from requirements to code (our team prioritized
+              shipping over mockups)
+            </li>
+            <li>
+              Secured buy-in from marketing director and business owners before
+              launch
+            </li>
+          </ul>
+        </div>
+
+        <!-- Results -->
+        <div class="content-section">
+          <h2>Results</h2>
+          <ul>
+            <li>Eliminated performance issues across all devices</li>
+            <li>Delivered the multi-CTA functionality stakeholders needed</li>
+            <li>
+              Created a seamless responsive experience from mobile to desktop
+            </li>
+            <li>
+              Received zero negative user feedback (notable given our diverse
+              age demographic)
+            </li>
+            <li>Got enthusiastic stakeholder approval</li>
+          </ul>
+          <p>
+            <em
+              >Note: I actively advocated for analytics tracking to validate UX
+              decisions with data, but we didn't have that infrastructure in
+              place at the time.</em
+            >
+          </p>
+        </div>
+
+        <!-- Project Navigation -->
+        <div class="project-nav">
+          <a href="card-library.html" class="btn-secondary"
+            >Next Project: Card Library →</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>
+          &copy; 2025 Logan Baugh. Built with HTML, CSS, and a lot of coffee.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
