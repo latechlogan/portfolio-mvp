@@ -3,29 +3,97 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Interactive Hero Slider | Logan Baugh</title>
-    <link rel="stylesheet" href="../css/main.css" />
-    <link rel="stylesheet" href="../css/projects.css" />
+    <title>Logan Baugh | Frontend Developer & Designer</title>
+    <!-- fonts -->
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=general-sans@1&f[]=quicksand@1&display=swap"
+      rel="stylesheet"
+    />
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/projects.css" />
   </head>
   <body>
     <!-- Navigation -->
     <nav class="nav">
       <div class="nav-container">
-        <a href="../index.html" class="nav-logo">Logan Baugh</a>
-        <ul class="nav-links">
-          <li><a href="../index.html#about">About</a></li>
-          <li><a href="../index.html#projects">Projects</a></li>
-        </ul>
+        <a href="/index.html" class="nav-logo h5">Logan Baugh</a>
+        <!-- hamburger toggle -->
+        <button
+          class="hamburger"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <!-- nav menu -->
+        <div class="nav-menu">
+          <ul class="nav-links">
+            <li class="nav__list-item">
+              <a href="/index.html#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="/index.html#projects" class="nav__link">Projects</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="/docs/Logan_Baugh_Resume_11052025.pdf" class="nav__link"
+                >Resume</a
+              >
+            </li>
+          </ul>
+          <ul class="social-links">
+            <li class="nav__list-item">
+              <a
+                href="https://github.com/latechlogan"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="nav__link"
+              >
+                <svg
+                  id="a"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 360 360"
+                >
+                  <path
+                    d="M0,173.67C7.7,57.71,120.17-22.9,232.82,11.77c118.27,36.4,164.49,180.66,90.98,280.67-19,25.84-53.79,53.51-84.82,62.67-5.86,1.73-11.87,1.85-14.27-4.75-1.15-18.18,1.03-37.36-.12-55.43-.68-10.79-3.7-22.81-11.95-30.2.49-.73.93-.88,1.76-1.04,20.56-3.99,37.1-5.31,54-19.72,30.08-25.66,35.98-88.17,7.49-117.19,5.6-15.84,3.8-32.34-1.64-47.89-12.26-1.8-25.68,4.24-36.37,10.05-4.63,2.52-8.69,6.22-13.71,8.07-29.11-7.59-59.95-7.6-89.05,0-10.07-5.46-19.57-12.17-30.59-15.77-6.09-1.99-13.23-4.01-19.49-2.36-5.49,15.6-7.16,32-1.64,47.89-20.73,21.64-21.77,54.88-13.94,82.42,8.83,31.06,31.22,46.35,61.73,52.76,5.08,1.07,10.64.91,15.47,2.77-4.65,3.96-7.34,9.58-9.32,15.27-.88,2.54-.91,6.95-2.64,8.6-3.27,3.12-18.16,4.92-22.76,4.59-25.25-1.82-25.58-24.18-43.16-34.1-5.03-2.84-13.19-5.78-18.78-3.32-7.66,3.37,6.04,10.65,8.58,12.84,10.43,9.02,12.01,17.74,18.25,28.83,11.68,20.74,36.39,24.24,57.9,18.97.08,7.38-.08,14.79-.02,22.18.02,2.31.87,4.26.73,6.98-.31,5.96-2.96,10.69-9.46,10.78-4.76.07-20.85-7.33-25.87-9.8C41.96,317.86,3.5,258.07,0,193.36v-19.69Z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="nav__list-item">
+              <a
+                href="https://www.linkedin.com/in/logan-baugh-b1937b189/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="nav__link"
+              >
+                <svg
+                  id="a"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 360 360"
+                >
+                  <path
+                    d="M44.3,0c11.8,2.28,22.44,8.32,28.69,18.77,18.61,31.14-10.3,68.51-45.01,58.37C12.86,72.73,2.67,59.54,0,44.3c.25-3.16-.35-6.76,0-9.84C1.43,21.79,11.25,8.54,22.95,3.62l11.5-3.62h9.84Z"
+                  />
+                  <path
+                    d="M112.5,360V112.5h80.86v46.41c18.57-22.77,43.51-41.8,73.57-45.61,41.35-5.24,79.73,19.45,90.62,59.67l2.45,12.66v174.38h-80.16l-.04-156.4c-19.92-52.32-67.16-5.42-86.13,20.66l-.31,135.74h-80.86Z"
+                  />
+                  <rect x="0" y="112.5" width="80.86" height="247.5" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 
     <!-- Project Header -->
     <section class="project-header">
-      <div class="container">
-        <a href="../index.html#projects" class="back-link"
-          >← Back to Projects</a
-        >
-        <h1>Interactive Hero Slider</h1>
+      <div class="mw-container">
+        <!-- <a href="/index.html#projects" class="back-link">← Back to Projects</a> -->
+        <h1 class="h4">Interactive Hero Slider</h1>
         <p class="project-tagline">
           Replacing a performance-heavy video background with responsive,
           multi-CTA storytelling
@@ -50,10 +118,10 @@
 
     <!-- Project Content -->
     <section class="project-content">
-      <div class="container">
+      <div class="mw-container">
         <!-- The Problem -->
         <div class="content-section">
-          <h2>The Problem</h2>
+          <h2 class="project__sect-title h6">The Problem</h2>
           <p>Our homepage hero section had issues:</p>
           <ul>
             <li>
@@ -72,7 +140,7 @@
 
           <div class="image-container">
             <img
-              src="../images/hero-slider-before.jpg"
+              src="../images/screens/card-library-before.png"
               alt="Original video background hero section"
             />
             <p class="image-caption">
@@ -83,7 +151,7 @@
 
         <!-- The Solution -->
         <div class="content-section">
-          <h2>What I Built</h2>
+          <h2 class="project__sect-title h6">What I Built</h2>
           <p>An auto-advancing slider with story-style navigation that:</p>
           <ul>
             <li>
@@ -108,7 +176,7 @@
 
           <div class="image-container">
             <img
-              src="../images/hero-slider-after.jpg"
+              src="../images/screens/card-library-after.png"
               alt="New interactive hero slider"
             />
             <p class="image-caption">
@@ -119,31 +187,29 @@
 
         <!-- Technical Challenges -->
         <div class="content-section">
-          <h2>Technical Challenges</h2>
-          <ul>
-            <li>
-              <strong>Responsive text:</strong> Separated text from graphics so
-              it could scale properly at any screen size—embedding text in
-              images would make it illegible on small screens or oversized on
-              large ones
-            </li>
-            <li>
-              <strong>Image scaling:</strong> Used CSS aspect-ratio to let
-              graphics resize fluidly without needing multiple image sizes or
-              restrictive safe zones
-            </li>
-            <li>
-              <strong>Accessible navigation:</strong> Included arrow buttons
-              alongside the progress bar interface for users who might not be
-              familiar with story-style navigation (our audience includes
-              seniors)
-            </li>
-          </ul>
+          <h2 class="project__sect-title h6">Technical Challenges</h2>
+          <h3 class="base-copy">Responsive text</h3>
+          <p class="base-copy">
+            Separated text from graphics so it could scale properly at any
+            screen size—embedding text in images would make it illegible on
+            small screens or oversized on large ones
+          </p>
+          <h3 class="base-copy">Image scaling</h3>
+          <p class="base-copy">
+            Used CSS aspect-ratio to let graphics resize fluidly without needing
+            multiple image sizes or restrictive safe zones
+          </p>
+          <h3 class="base-copy">Accessible navigation</h3>
+          <p class="base-copy">
+            Included arrow buttons alongside the progress bar interface for
+            users who might not be familiar with story-style navigation (our
+            audience includes seniors)
+          </p>
         </div>
 
         <!-- The Context -->
         <div class="content-section">
-          <h2>How This Came Together</h2>
+          <h2 class="project__sect-title h6">How This Came Together</h2>
           <ul>
             <li>
               Worked as solo dev on a small marketing team managing three
@@ -166,7 +232,7 @@
 
         <!-- Results -->
         <div class="content-section">
-          <h2>Results</h2>
+          <h2 class="project__sect-title h6">Results</h2>
           <ul>
             <li>Eliminated performance issues across all devices</li>
             <li>Delivered the multi-CTA functionality stakeholders needed</li>
@@ -179,7 +245,7 @@
             </li>
             <li>Got enthusiastic stakeholder approval</li>
           </ul>
-          <p>
+          <p class="fine-print">
             <em
               >Note: I actively advocated for analytics tracking to validate UX
               decisions with data, but we didn't have that infrastructure in
@@ -199,11 +265,11 @@
 
     <!-- Footer -->
     <footer class="footer">
-      <div class="container">
-        <p>
-          &copy; 2025 Logan Baugh. Built with HTML, CSS, and a lot of coffee.
-        </p>
+      <div class="mw-container">
+        <p class="fine-print">&copy; 2025 Logan Baugh, All Rights Reserved.</p>
       </div>
     </footer>
   </body>
+
+  <script src="../js/main.js"></script>
 </html>
