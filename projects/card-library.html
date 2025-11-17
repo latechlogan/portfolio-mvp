@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Logan Baugh | Frontend Developer & Designer</title>
+    <!-- fonts -->
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=general-sans@1&display=swap"
+      rel="stylesheet"
+    />
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/projects.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="nav">
+      <div class="nav-container">
+        <a href="/index.html" class="nav-logo h5">Logan Baugh</a>
+        <!-- hamburger toggle -->
+        <button
+          class="hamburger"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <!-- nav menu -->
+        <div class="nav-menu">
+          <ul class="nav-links">
+            <li class="nav__list-item">
+              <a href="/index.html#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="/index.html#projects" class="nav__link">Projects</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="/docs/Logan_Baugh_Resume_11052025.pdf" class="nav__link"
+                >Resume</a
+              >
+            </li>
+          </ul>
+          <ul class="social-links">
+            <li class="nav__list-item">
+              <a
+                href="https://github.com/latechlogan"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="nav__link"
+              >
+                <svg
+                  id="a"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 360 360"
+                >
+                  <path
+                    d="M0,173.67C7.7,57.71,120.17-22.9,232.82,11.77c118.27,36.4,164.49,180.66,90.98,280.67-19,25.84-53.79,53.51-84.82,62.67-5.86,1.73-11.87,1.85-14.27-4.75-1.15-18.18,1.03-37.36-.12-55.43-.68-10.79-3.7-22.81-11.95-30.2.49-.73.93-.88,1.76-1.04,20.56-3.99,37.1-5.31,54-19.72,30.08-25.66,35.98-88.17,7.49-117.19,5.6-15.84,3.8-32.34-1.64-47.89-12.26-1.8-25.68,4.24-36.37,10.05-4.63,2.52-8.69,6.22-13.71,8.07-29.11-7.59-59.95-7.6-89.05,0-10.07-5.46-19.57-12.17-30.59-15.77-6.09-1.99-13.23-4.01-19.49-2.36-5.49,15.6-7.16,32-1.64,47.89-20.73,21.64-21.77,54.88-13.94,82.42,8.83,31.06,31.22,46.35,61.73,52.76,5.08,1.07,10.64.91,15.47,2.77-4.65,3.96-7.34,9.58-9.32,15.27-.88,2.54-.91,6.95-2.64,8.6-3.27,3.12-18.16,4.92-22.76,4.59-25.25-1.82-25.58-24.18-43.16-34.1-5.03-2.84-13.19-5.78-18.78-3.32-7.66,3.37,6.04,10.65,8.58,12.84,10.43,9.02,12.01,17.74,18.25,28.83,11.68,20.74,36.39,24.24,57.9,18.97.08,7.38-.08,14.79-.02,22.18.02,2.31.87,4.26.73,6.98-.31,5.96-2.96,10.69-9.46,10.78-4.76.07-20.85-7.33-25.87-9.8C41.96,317.86,3.5,258.07,0,193.36v-19.69Z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="nav__list-item">
+              <a
+                href="https://www.linkedin.com/in/logan-baugh-b1937b189/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="nav__link"
+              >
+                <svg
+                  id="a"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 360 360"
+                >
+                  <path
+                    d="M44.3,0c11.8,2.28,22.44,8.32,28.69,18.77,18.61,31.14-10.3,68.51-45.01,58.37C12.86,72.73,2.67,59.54,0,44.3c.25-3.16-.35-6.76,0-9.84C1.43,21.79,11.25,8.54,22.95,3.62l11.5-3.62h9.84Z"
+                  />
+                  <path
+                    d="M112.5,360V112.5h80.86v46.41c18.57-22.77,43.51-41.8,73.57-45.61,41.35-5.24,79.73,19.45,90.62,59.67l2.45,12.66v174.38h-80.16l-.04-156.4c-19.92-52.32-67.16-5.42-86.13,20.66l-.31,135.74h-80.86Z"
+                  />
+                  <rect x="0" y="112.5" width="80.86" height="247.5" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Project Header -->
+    <section class="project-header">
+      <div class="mw-container">
+        <h1 class="h4">Swipeable Card Library</h1>
+        <p class="project-tagline">
+          Building a reusable component system for responsive, touch-enabled
+          content
+        </p>
+
+        <div class="project-meta">
+          <div class="meta-item">
+            <span class="meta-label">Role</span>
+            <span class="meta-value">Design & Development</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Tools</span>
+            <span class="meta-value">HTML, CSS, JavaScript</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Context</span>
+            <span class="meta-value">Multi-Site Component System</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Content -->
+    <section class="project-content">
+      <div class="mw-container">
+        <!-- The Problem -->
+        <div class="content-section">
+          <div class="image-container">
+            <img
+              src="../images/screens/card-library-before.png"
+              alt="Original static news section"
+            />
+            <p class="image-caption">
+              Before: Static, unresponsive content with text embedded in
+              graphics
+            </p>
+          </div>
+          <h2 class="project__sect-title h6">The Problem</h2>
+          <p>
+            Our healthcare websites had sections for news, updates, and seasonal
+            information that were causing headaches:
+          </p>
+          <ul>
+            <li>
+              Text was embedded in graphics, making it impossible to control
+              sizing across devices
+            </li>
+            <li>
+              Graphics needed huge safe zones to prevent cropping at different
+              screen sizes
+            </li>
+            <li>Maintaining and updating content was painfully slow</li>
+            <li>The static layout didn't work well on mobile</li>
+            <li>
+              We needed to meet CMS accessibility standards requiring certain
+              content to be reachable within 3 clicks
+            </li>
+          </ul>
+        </div>
+
+        <!-- The Solution -->
+        <div class="content-section">
+          <div class="image-container">
+            <img
+              src="../images/screens/card-library-after.png"
+              alt="New swipeable card system"
+            />
+            <p class="image-caption">
+              After: Touch-enabled cards with separate text and graphics
+            </p>
+          </div>
+          <h2 class="project__sect-title h6">What I Built</h2>
+          <p>A reusable card component library that:</p>
+          <ul>
+            <li>
+              Works across all three healthcare sites with consistent behavior
+            </li>
+            <li>
+              Separates text from graphics for better control and maintenance
+            </li>
+            <li>
+              Responds progressively—single card on mobile, scaling to multiple
+              cards on larger screens
+            </li>
+            <li>
+              Supports both swipe gestures and navigation arrows for
+              accessibility
+            </li>
+            <li>
+              Lets us prioritize primary content while keeping secondary content
+              accessible
+            </li>
+            <li>
+              Provides direct links to important pages, helping meet CMS
+              accessibility requirements
+            </li>
+          </ul>
+        </div>
+
+        <!-- Technical Challenges -->
+        <div class="content-section para-section">
+          <h2 class="project__sect-title h6">Technical Challenges</h2>
+          <h3 class="base-copy">Building for reusability</h3>
+          <p class="base-copy">
+            Midway through the first implementation, I realized this needed to
+            work across multiple sites with different structures. I standardized
+            the JavaScript functionality, CSS styling, and HTML structure so it
+            could drop into any site regardless of the surrounding
+            architecture—essentially creating what I now recognize as a
+            React-style component before I knew React.
+          </p>
+          <h3 class="base-copy">
+            Balancing modern interactions with accessibility
+          </h3>
+          <p class="base-copy">
+            I got pushback on having off-screen cards and swipe gestures. But
+            the accessibility requirements meant the old approach wasn't an
+            option. I made the case that prioritizing 1-2 cards on-screen while
+            keeping others accessible was better than overwhelming users with
+            vertical scrolling (some implementations had 6-7 cards). Added
+            arrows as a clear fallback for users unfamiliar with swipe gestures,
+            especially seniors.
+          </p>
+          <h3 class="base-copy">Responsive graphics without safe zones</h3>
+          <p class="base-copy">
+            By separating text from graphics, I eliminated the need for massive
+            safe zones. Graphics could be more visually interesting without
+            worrying about text getting cut off at different screen sizes.
+          </p>
+        </div>
+
+        <!-- The Context -->
+        <div class="content-section para-section">
+          <h2 class="project__sect-title h6">How This Came Together</h2>
+          <p>
+            As the solo developer managing three healthcare sites, I was
+            responsible for both designing and implementing solutions. When I
+            redesigned these sites to be responsive, the old static content
+            sections became maintenance nightmares. I knew cards were the
+            answer—more control than carousels, more modern than static grids.
+          </p>
+          <p>
+            I started building the first implementation and realized halfway
+            through that this was too complex to rebuild for each site. That's
+            when I decided to create it as a library—standardized code that
+            could be reused everywhere. On one site where stakeholders objected
+            to off-screen content, we compromised with a responsive grid on
+            desktop while keeping the single-card mobile experience.
+          </p>
+        </div>
+
+        <!-- Results -->
+        <div class="content-section">
+          <h2 class="project__sect-title h6">Results</h2>
+          <ul>
+            <li>
+              Successfully deployed across all three healthcare properties
+            </li>
+            <li>
+              Dramatically simplified graphic design and maintenance workflow
+            </li>
+            <li>
+              Met CMS accessibility standards by providing direct links to
+              priority pages
+            </li>
+            <li>
+              Created a system that worked for both modern users (swipe
+              gestures) and seniors (navigation arrows)
+            </li>
+            <li>
+              Zero negative user feedback despite diverse age demographics
+            </li>
+          </ul>
+          <p class="fine-print">
+            <em
+              >Note: While we didn't have engagement metrics, the absence of
+              negative feedback from our diverse user base suggested the
+              interface was intuitive across age groups.</em
+            >
+          </p>
+        </div>
+
+        <!-- Project Navigation -->
+        <div class="project-nav">
+          <a href="hero-slider.html" class="btn-secondary"
+            >← Previous: Hero Slider</a
+          >
+          <a href="provider-search.html" class="btn-secondary"
+            >Next: Provider Search →</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="mw-container">
+        <p class="fine-print">&copy; 2025 Logan Baugh, All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+
+  <script src="../js/main.js"></script>
+</html>
