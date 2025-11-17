@@ -21,10 +21,14 @@ function toggleMenu() {
 
 hamburger.addEventListener("click", (e) => {
   e.preventDefault;
-  toggleMenu();
+  if (window.innerWidth < 768) {
+    toggleMenu();
+  }
 });
 
 navMenu.addEventListener("click", (e) => {
   e.preventDefault;
-  toggleMenu();
+  if (window.innerWidth < 768) {
+    toggleMenu();
+  }
 });
