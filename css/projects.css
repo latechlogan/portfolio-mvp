@@ -1,0 +1,53 @@
+.project-content ul {
+  padding: 0 0 0 1.44rem;
+}
+
+.project-content li {
+  margin: 0.694rem 0;
+}
+
+.project-header {
+  background: linear-gradient(#eee, #fff);
+}
+
+.project-meta .meta-label {
+  font-weight: 900;
+}
+
+.project-content .content-section {
+  margin: 0 0 2.074rem 0;
+}
+
+.project-content .content-section .fine-print {
+  padding: 1rem;
+  margin-top: 1.44rem;
+  background-color: #eee;
+  border-radius: 8px;
+}
+
+.project__sect-title {
+  margin: 0 0 0.833rem 0;
+}
+
+.image-container {
+  padding: 0.833rem;
+  margin: 2.986rem 0;
+  background-color: #f6f6f6;
+  border-radius: 8px;
+}
+
+.image-container > img {
+  width: 100%;
+  aspect-ratio: 18 / 8.5;
+  border-radius: 8px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.image-container .image-caption {
+  font-size: 0.833rem;
+  margin-top: 0.833rem;
+}
+
+.para-section p {
+  margin-bottom: 1rem;
+}
