@@ -46,6 +46,11 @@
 .image-container .image-caption {
   font-size: 0.833rem;
   margin-top: 0.833rem;
+  font-style: italic;
+}
+
+.image-container .image-caption span {
+  font-weight: 600;
 }
 
 .para-section p {
