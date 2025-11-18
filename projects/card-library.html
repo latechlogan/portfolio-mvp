@@ -92,26 +92,11 @@
     <!-- Project Header -->
     <section class="project-header">
       <div class="mw-container">
-        <h1 class="h4">Swipeable Card Library</h1>
-        <p class="project-tagline">
+        <h1 class="project-title h4 center">Swipeable Card Library</h1>
+        <p class="project-tagline large-copy center">
           Building a reusable component system for responsive, touch-enabled
           content
         </p>
-
-        <div class="project-meta">
-          <div class="meta-item">
-            <span class="meta-label">Role</span>
-            <span class="meta-value">Design & Development</span>
-          </div>
-          <div class="meta-item">
-            <span class="meta-label">Tools</span>
-            <span class="meta-value">HTML, CSS, JavaScript</span>
-          </div>
-          <div class="meta-item">
-            <span class="meta-label">Context</span>
-            <span class="meta-value">Multi-Site Component System</span>
-          </div>
-        </div>
       </div>
     </section>
 
@@ -124,6 +109,7 @@
             <img
               src="../images/screens/card-library-before.png"
               alt="Original static news section"
+              class="noshadow"
             />
             <p class="image-caption">
               <span>Before:</span> Static, unresponsive content with text
@@ -159,6 +145,7 @@
             <img
               src="../images/screens/card-library-after.png"
               alt="New swipeable card system"
+              class="noshadow"
             />
             <p class="image-caption">
               <span>After:</span> Touch-enabled cards with separate text and
@@ -201,9 +188,7 @@
             Midway through the first implementation, I realized this needed to
             work across multiple sites with different structures. I standardized
             the JavaScript functionality, CSS styling, and HTML structure so it
-            could drop into any site regardless of the surrounding
-            architecture—essentially creating what I now recognize as a
-            React-style component before I knew React.
+            could drop into any site regardless of the surrounding architecture.
           </p>
           <h3 class="base-copy">
             Balancing modern interactions with accessibility
@@ -232,8 +217,7 @@
             As the solo developer managing three healthcare sites, I was
             responsible for both designing and implementing solutions. When I
             redesigned these sites to be responsive, the old static content
-            sections became maintenance nightmares. I knew cards were the
-            answer—more control than carousels, more modern than static grids.
+            sections became maintenance nightmares.
           </p>
           <p>
             I started building the first implementation and realized halfway
@@ -263,9 +247,6 @@
               Created a system that worked for both modern users (swipe
               gestures) and seniors (navigation arrows)
             </li>
-            <li>
-              Zero negative user feedback despite diverse age demographics
-            </li>
           </ul>
           <p class="fine-print">
             <em
@@ -277,7 +258,10 @@
         </div>
 
         <!-- Project Navigation -->
-        <div class="project-nav">
+        <div
+          class="project-nav"
+          style="display: flex; justify-content: space-between"
+        >
           <a href="hero-slider.html" class="btn-secondary"
             >← Previous: Hero Slider</a
           >
@@ -291,7 +275,35 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="mw-container">
-        <p class="fine-print">&copy; 2025 Logan Baugh, All Rights Reserved.</p>
+        <p class="h4 center">Let's Connect!</p>
+        <ul class="center">
+          <li>
+            <a href="mailto:loganbaugh0423@gmail.com" class="large-copy"
+              >Email</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/latechlogan"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="large-copy"
+              >GitHub</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/logan-baugh-b1937b189/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="large-copy"
+              >LinkedIn</a
+            >
+          </li>
+        </ul>
+        <p class="base-copy center">
+          &copy; 2025 Logan Baugh, All Rights Reserved.
+        </p>
       </div>
     </footer>
   </body>
